@@ -2,6 +2,7 @@
     --blue1: #8CAFBF;
     --blue2: #5D7580;
     --blue3: #BAE9FF;
+    --blue4: #A8D2E6;
     --textClr: #2F3A40;
 }
 html, body{
@@ -59,16 +60,18 @@ nav ul li a{
 }
 aside{
     grid-area: aside;
+    background: ivory; 
 }
 article{
     grid-area: article;
+    background: ivory; 
     display: flex;
     height: 100%;
 }
 footer{
     grid-area: footer;
-    margin: 1rem 1rem;
     padding: .2rem;
-    border:1px solid var(--blue2);
+    background: var(--blue4);
     max-height: 3rem;
+    text-align: center;
 }
